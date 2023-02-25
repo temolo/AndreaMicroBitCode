@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="EFmT=Pc9757dzK%JK)tD">hand</variable></variables><block type="pxt-on-start" id="3*(zacBj3Sy2+HezgtI[" x="0" y="0"></block><block type="device_forever" id="yrB.XiksBKl!/;W~l#zC" x="205" y="0"></block><block type="device_gesture_event" id=",m0Q/EePUE-f+Zdx[8H3" x="105" y="165"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="*EK=^(ocu1EV1xU*L4@G"><field name="VAR" id="EFmT=Pc9757dzK%JK)tD">hand</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="sTYJE]4xBrm9tH]ULEi)"><value name="min"><shadow type="math_number" id="rQDv?NJq5X*5GI^3%Orq"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="]A,@F`!U$3%MM-o(k5Ly"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="r.5}k*lBFeIF|v[|5;p0"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Q6U`xP_=-:BM;ILL^B]q"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="$#@D,gE2/qll2eDQCP^,"><field name="VAR" id="EFmT=Pc9757dzK%JK)tD">hand</field></block></value><value name="B"><shadow type="math_number" id="7P@`X||!PC6sN8GA3:eE"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="`PD[4GT?v|m/}HHNW?F%"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="soundExpression_playSoundEffect" id="*v1FM+tZ%c(#Tvt}8T52"><field name="mode">SoundExpressionPlayMode.UntilDone</field><value name="sound"><shadow type="soundExpression_builtinSoundEffect" id="[0Xf#J)]f:-]X63Zr4A:"><field name="soundExpression">soundExpression.hello</field></shadow></value></block></next></block></statement><value name="IF1"><block type="logic_compare" id="R2ZKAV_7g6t0%n=^n4Fv"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="d?My*%S|AHc6xo30Vy^M"><field name="VAR" id="EFmT=Pc9757dzK%JK)tD">hand</field></block></value><value name="B"><shadow type="math_number" id="Vypm*n7$}aQ}aYOM6|()"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="bxi2o{/vVgLkg%vSO=(t"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field><next><block type="soundExpression_playSoundEffect" id="%Y%L54eWg4V%3(sbCTy!"><field name="mode">SoundExpressionPlayMode.UntilDone</field><value name="sound"><shadow type="soundExpression_builtinSoundEffect" id="ov/?feFozI(HpX[qc3ao"><field name="soundExpression">soundExpression.slide</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="d#8S-LCFf8jV*X*Dc7TS"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        # # . . #
+        `</field><next><block type="soundExpression_playSoundEffect" id="/h3oq-/gRnn}=M^m3/}O"><field name="mode">SoundExpressionPlayMode.UntilDone</field><value name="sound"><shadow type="soundExpression_builtinSoundEffect" id="S_Y$,h#}rOS6uyG-ooUI"><field name="soundExpression">soundExpression.happy</field></shadow></value></block></next></block></statement></block></next></block></statement></block></xml>
